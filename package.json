@@ -4,11 +4,21 @@
   "description": "Small shop prototype",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Asipovich/Shop-prototype.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "bcryptjs": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "jsonwebtoken": "*"
   },
   "author": "Ivan Asipovich",
   "license": "ISC",
